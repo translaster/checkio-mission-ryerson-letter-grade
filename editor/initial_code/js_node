@@ -1,19 +1,31 @@
 "use strict";
 
-function sumTwo(a, b) {
-    // sums two passed arguments
+const TABLE = `
+A 85-89%
+A- 80-84%
+B+ 77-79%
+B 73-76%
+B- 70-72%
+C+ 67-69%
+C 63-66%
+C- 60-62%
+D+ 57-59%
+D 53-56%
+D- 50-52%
+`
 
+function ryersonLetterGrade(pct) {
     // your code here
-    return 0;
+    return 'A';
 }
 
 var assert = require('assert');
 if (!global.is_checking) {
     console.log('Example:')
-    console.log(sumTwo(3, 2))
+    console.log(ryersonLetterGrade(45))
 
     // These "asserts" are used for self-checking and not for an auto-testing
-    assert.equal(sumTwo(3, 2), 5)
-    assert.equal(sumTwo(5, 7), 12)
+    assert.equal(ryersonLetterGrade(45), "F")
+    assert.equal(ryersonLetterGrade(65), "C")
     console.log("Coding complete? Click 'Check' to earn cool rewards!");
 }
