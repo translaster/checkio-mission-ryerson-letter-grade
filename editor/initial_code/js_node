@@ -26,6 +26,6 @@ if (!global.is_checking) {
 
     // These "asserts" are used for self-checking and not for an auto-testing
     assert.equal(ryersonLetterGrade(45), "F")
-    assert.equal(ryersonLetterGrade(65), "C")
+    assert.equal(ryersonLetterGrade(62), "C-")
     console.log("Coding complete? Click 'Check' to earn cool rewards!");
 }

@@ -25,5 +25,5 @@ if __name__ == '__main__':
     
     # These "asserts" are used for self-checking and not for an auto-testing
     assert ryerson_letter_grade(45) == "F"
-    assert ryerson_letter_grade(65) == "C"
+    assert ryerson_letter_grade(62) == "C-"
     print("Coding complete? Click 'Check' to earn cool rewards!")

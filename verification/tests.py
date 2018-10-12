@@ -15,7 +15,7 @@ TESTS = {
             "answer": "F"
         },
         {
-            "input": [65],
+            "input": [62],
             "answer": "C-"
         }
     ],
