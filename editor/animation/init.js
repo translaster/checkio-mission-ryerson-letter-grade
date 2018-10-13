@@ -8,8 +8,8 @@ requirejs(['ext_editor_io', 'jquery_190'],
         var io = new extIO({
             multipleArguments: true,
             functions: {
-                python: 'sum_two',
-                js: 'sumTwo'
+                python: 'ryerson_letter_grade',
+                js: 'ryersonLetterGrade'
             }
         });
         io.start();
