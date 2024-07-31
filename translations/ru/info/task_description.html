@@ -1,0 +1,41 @@
+<p>
+Учитывая процентное соотношение оценок за курс, рассчитайте и верните буквенную оценку, которая будет отображаться в ведомости оценок Райерсона, как определено на странице <a href=«https://www.ryerson.ca/registrar/faculty/grading/gradescales_ugrad/»>Шкалы оценок Райерсона</a>. Буквенная оценка должна быть возвращена в виде строки, состоящей из заглавной буквы, за которой следует возможный модификатор «+» или «-».
+</p>
+
+<p>
+    <strong>Входные данные: </strong> Целочисленное. Процентное соотношение.
+</p>
+
+<p>
+    <strong>Выходные данные: </strong> Строковое. Буквенная оценка.
+</p>
+
+
+<!-- Put some usage examples -->
+<div class="for_info_only">
+    <p>
+        <strong>Пример:</strong>
+    </p>
+<p><i>Исходный код содержит таблицу оценок в виде необработанной строки. Не стесняйтесь изменять ее любым способом.</i></p>
+
+{% if interpreter.slug == "js-node" %}
+<pre class="brush: javascript">
+ryersonLetterGrade(45) == "F"
+ryersonLetterGrade(62) == "C-"
+</pre>
+{% else %}
+<pre class="brush: python">
+ryerson_letter_grade(45) == "F"
+ryerson_letter_grade(62) == "C-"
+</pre>
+{% endif %}
+</div>
+
+<p>
+    <strong>Предусловие:</strong>
+    <i>аргумент может быть от 0 до 150</i>
+</p>
+
+<p><i>Задание взято из курса Python CCPS 109 Fall 2018. Его преподаёт для Школы непрерывного образования Райерсона Чанга <a href=«http://www.scs.ryerson.ca/~ikokkari/»>Илкка Коккаринен</a>.</i></p>
+
+
